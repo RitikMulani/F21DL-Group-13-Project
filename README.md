@@ -184,6 +184,7 @@ F21DL-Group-13-Project/
 │
 ├── .gitignore
 ├── DATA_SOURCES.md
+├── Machine Learning for Video Game Classification.pdf
 ├── README.md
 └── requirements.txt
 ```
