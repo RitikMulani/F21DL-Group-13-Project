@@ -1,0 +1,12 @@
+numpy
+pandas>=2.0
+matplotlib
+seaborn
+scipy
+scikit-learn
+tensorflow
+joblib
+networkx
+pgmpy
+jinja2>=3.0
+jupyter

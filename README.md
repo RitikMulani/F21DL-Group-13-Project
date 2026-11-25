@@ -173,14 +173,19 @@ F21DL-Group-13-Project/
 │   ├── skillcraft_apm_latency_by_league.png
 │   ├── skillcraft_correlation_heatmap.png
 │   ├── dota2_match_distributions.png
-│   ├── dota2_top15_hero_usage.png
-│   ├── quickdraw_sample_grid.png
-│   └── quickdraw_class_distribution.png
+│   └── dota2_top15_hero_usage.png
 │
-├── notebooks/
-│   ├── 01_SkillCraft_EDA.ipynb
-│   ├── 02_Dota2_EDA.ipynb
-│   └── 03_QuickDraw_EDA.ipynb
+├── notebooks/            (run from this folder; all paths are ../data, ../figures, ../results)
+│   ├── 01_SkillCraft.ipynb
+│   ├── 02_Dota2.ipynb
+│   ├── 03_QuickDraw_Classical_MLP_Reviewed.ipynb   (downloads QuickDraw, creates the .npz)
+│   ├── 04_QuickDraw_CNN.ipynb
+│   ├── 05_QuickDraw_CNN_tuning.ipynb               (saves the best model used by 06 and 09)
+│   ├── 06_QuickDraw_CNN_final_test.ipynb
+│   ├── 07_QuickDraw_CNN_crossval.ipynb
+│   ├── 08_QuickDraw_feature_selection_PCA_clustering.ipynb
+│   ├── 09_QuickDraw_ROC_perceptron.ipynb
+│   └── 10_QuickDraw_CNN_architectures.ipynb
 │
 ├── .gitignore
 ├── DATA_SOURCES.md
